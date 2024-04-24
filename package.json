@@ -1,31 +1,24 @@
 {
   "name": "react-typescript-tailwind-starter",
   "version": "0.1.0",
-  "description": "Starter kit for React, Typescript, TailwindCSS, Jest and Babel.",
+  "description": "Blank React, Typescript, TailwindCSS",
   "keywords": [
     "react",
     "webpack",
     "typescript",
-    "babel",
     "TailwindCSS",
-    "emotion",
-    "starter",
+    "blank",
     "boilerplate"
   ],
-  "author": "kosaki56",
+  "author": "Norf",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kosaki56/react-typescript-tailwind-starter.git"
+    "url": "git+https://github.com/Norf-g/react-tailwind-blank.git"
   },
-  "bugs": {
-    "url": "https://github.com/kosaki56/react-typescript-tailwind-starter/issues"
-  },
-  "homepage": "https://github.com/kosaki56/react-typescript-tailwind-starter",
+  "homepage": "https://github.com/Norf-g/react-tailwind-blank",
   "private": true,
   "dependencies": {
-    "@emotion/core": "^11.0.0",
-    "@emotion/styled": "^11.0.0",
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/typography": "^0.4.0",
@@ -36,18 +29,17 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "twin.macro": "2.0.8",
-    "typescript": "^4.0.3"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.4.5",
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "@craco/craco": "^6.4.3",
-    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@tailwindcss/postcss7-compat": "2.2.17",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
-    "@typescript-eslint/parser": "^4.13.0",
-    "autoprefixer": "^9",
+    "@typescript-eslint/parser": "4.13.0",
+    "@craco/craco": "7.1.0",
+    "autoprefixer": "10.4.12",
     "babel-jest": "^26.6.3",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
@@ -58,8 +50,9 @@
     "identity-obj-proxy": "^3.0.0",
     "jest-watch-typeahead": "^0.6.1",
     "lint-staged": "^10.5.3",
-    "postcss": "^7",
+    "postcss": "8.4.38",
     "prettier": "^2.2.1",
+  
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.1.3"
   },
